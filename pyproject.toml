@@ -1,0 +1,15 @@
+[project]
+name = "twelve-janggi-env"
+version = "0.1.0"
+description = "A Gymnasium environment for Twelve Janggi (십이장기) from The Genius"
+requires-python = ">=3.9"
+dependencies = [
+    "gymnasium",
+    "pygame",
+    "numpy",
+    "stable-baselines3",
+    "sb3-contrib",
+]
+
+[project.urls]
+Homepage = "https://github.com/tompravetz/twelve-janggi-env"
