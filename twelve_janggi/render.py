@@ -1,8 +1,8 @@
 import pygame
 import sys
 import numpy as np
-from piece import PieceType, Owner
-from game import Game
+from .piece import PieceType, Owner
+from .game import Game
 
 # ── Layout ────────────────────────────────────────────────────────────────────
 SQUARE_SIZE  = 120

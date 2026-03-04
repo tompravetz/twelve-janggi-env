@@ -1,5 +1,5 @@
-from board import Board
-from piece import Owner, PieceType
+from .board import Board
+from .piece import Owner, PieceType
 
 
 class Game:

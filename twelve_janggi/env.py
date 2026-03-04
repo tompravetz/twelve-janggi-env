@@ -1,7 +1,7 @@
 import gymnasium as gym
 import numpy as np
-from game import Game
-from piece import Owner, PieceType
+from .game import Game
+from .piece import Owner, PieceType
 
 
 def build_action_list():

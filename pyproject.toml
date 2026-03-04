@@ -13,3 +13,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/tompravetz/twelve-janggi-env"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["twelve_janggi*"]

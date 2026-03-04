@@ -1,4 +1,4 @@
-from piece import Piece, PieceType, Owner
+from .piece import Piece, PieceType, Owner
 
 
 class Board:

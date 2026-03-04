@@ -1,4 +1,4 @@
-from env import TwelveJanggiEnv
+from twelve_janggi import TwelveJanggiEnv
 import numpy as np
 
 env = TwelveJanggiEnv()
