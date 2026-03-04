@@ -12,7 +12,6 @@ class Game:
         if action == "move":
             from_row, from_col, to_row, to_col = turn[1], turn[2], turn[3], turn[4]
             piece = self.board.grid[from_row][from_col]
-            print(f"piece at ({from_row},{from_col}): {piece}, current player: {self.current_player}")
             if piece is None or piece.owner != self.current_player:
                 return None
             self.board.make_move(from_row, from_col, to_row, to_col)
